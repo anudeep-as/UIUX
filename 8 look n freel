@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Look and Feel</title>
+<style>
+body { font-family: Arial; background: #f0f0f0; color: #333; margin: 0; padding: 0; }
+header, footer { background: #007bff; color: #fff; text-align: center; padding: 10px; }
+main { padding: 20px; }
+footer { position: fixed; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<header><h1>Project Title</h1></header>
+<main><p>Welcome to your new project!</p></main>
+<footer><p>&copy; 2023 Your Project Name</p></footer>
+</body>
+</html>
