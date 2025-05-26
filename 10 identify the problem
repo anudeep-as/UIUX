@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Problem Identification</title>
+</head>
+<body>
+<h1>Customer Problem Identification</h1>
+<form action="#" method="post">
+<label>Your Name:</label>
+<input type="text" name="customerName" required><br>
+<label>Your Email:</label>
+<input type="email" name="customerEmail" required><br>
+<label>Describe the problem:</label>
+<textarea name="problemDescription" rows="4" required></textarea><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
