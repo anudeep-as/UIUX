@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pattern Library</title>
+<style>
+body { font-family: Arial; margin: 20px; }
+section { margin-bottom: 40px; }
+.mood-board { display: flex; justify-content: space-around; }
+.color-sample { width: 50px; height: 50px; margin: 0 10px; border-radius: 50%; }
+.fonts { font-size: 18px; }
+</style>
+</head>
+<body>
+<section><h2>Mood Board</h2>
+<div class="mood-board"><div>Image 1</div><div>Image 2</div><div>Image 3</div></div></section>
+<section><h2>Fonts</h2><p class="fonts">Sample text with the selected font.</p></section>
+<section><h2>Colors</h2>
+<div class="color-sample" style="background-color: #3498db;"></div>
+<div class="color-sample" style="background-color: #2ecc71;"></div>
+<div class="color-sample" style="background-color: #e74c3c;"></div>
+</section>
+</body>
+</html>
