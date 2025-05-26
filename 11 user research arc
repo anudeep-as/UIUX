@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Research Documentation</title>
+<style>
+body { font-family: Arial; margin: 20px; line-height: 1.6; }
+section { margin-bottom: 30px; }
+</style>
+</head>
+<body>
+<h1>End-to-End User Research</h1>
+<section><h2>User Research</h2><p>Describe research methods and findings.</p></section>
+<section><h2>Creating Personas</h2><p>Key characteristics and goals of users.</p></section>
+<section><h2>Ideation</h2><p>Ideas generated during brainstorming.</p></section>
+<section><h2>User Stories</h2><p>Example: As a user, I want to log in so that I can access my dashboard.</p></section>
+<section><h2>Flow Diagrams</h2><p>Flow of user interactions through the system.</p></section>
+<section><h2>Flow Mapping</h2><p>Detailed map of user journey and touchpoints.</p></section>
+</body>
+</html>
