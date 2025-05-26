@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brainstorming Feature</title>
+<style>
+#ideaList { list-style-type: none; padding: 0; }
+#ideaList li { margin-bottom: 10px; }
+</style>
+</head>
+<body>
+<h1>Brainstorming Feature</h1>
+<label for="ideaInput">Enter your ideas:</label>
+<input type="text" id="ideaInput" placeholder="Type your idea...">
+<button onclick="addIdea()">Submit</button>
+<ul id="ideaList"></ul>
+<script>
+function addIdea() {
+  var ideaInput = document.getElementById('ideaInput');
+  var ideaText = ideaInput.value.trim();
+  if (ideaText !== '') {
+    var listItem = document.createElement('li');
+    listItem.textContent = ideaText;
+    document.getElementById('ideaList').appendChild(listItem);
+    ideaInput.value = '';
+  }
+}
+</script>
+</body>
+</html>
