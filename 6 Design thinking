@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design Thinking Process</title>
+<style>
+body { font-family: Arial; margin: 20px; }
+.step { margin-bottom: 20px; }
+</style>
+</head>
+<body>
+<div class="step"><h2>Empathize</h2><p>Understand your users.</p></div>
+<div class="step"><h2>Define</h2><p>Define the problem.</p></div>
+<div class="step"><h2>Ideate</h2><p>Generate ideas.</p></div>
+<div class="step"><h2>Prototype</h2><p>Build a model.</p></div>
+<div class="step"><h2>Test</h2><p>Gather feedback.</p></div>
+<div class="step"><h2>Implementation</h2><p>Launch the solution.</p></div>
+<div class="step">
+<h2>Get User Input</h2>
+<textarea id="user-feedback" rows="4" cols="50"></textarea><br>
+<button onclick="submitFeedback()">Submit</button>
+</div>
+<div class="step" id="user-feedback-display" style="display: none;">
+<h2>User Feedback</h2><p id="feedback-text"></p>
+</div>
+<script>
+function submitFeedback() {
+  var feedback = document.getElementById("user-feedback").value;
+  document.getElementById("feedback-text").textContent = feedback;
+  document.getElementById("user-feedback-display").style.display = "block";
+}
+</script>
+</body>
+</html>
