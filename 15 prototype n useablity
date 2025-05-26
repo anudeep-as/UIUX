@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design & Usability Testing</title>
+<style>
+body { font-family: Arial; margin: 20px; line-height: 1.6; }
+section { margin-bottom: 30px; }
+</style>
+</head>
+<body>
+<h1>Sketch, Design, and Usability Testing</h1>
+<section><h2>Sketching</h2><p>Initial sketches and concepts.</p></section>
+<section><h2>Design</h2><p>Tools used: Figma, Adobe XD. Screenshots of designs.</p></section>
+<section><h2>Prototype</h2><p>Steps taken to build prototype.</p></section>
+<section><h2>Usability Testing</h2><p>Test plan, participants, and observations.</p></section>
+<section><h2>Improvements</h2><p>Changes based on user feedback.</p></section>
+</body>
+</html>
